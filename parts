@@ -1,0 +1,8 @@
+128MBit SPI Flash (supporting 0x0B fast read, 24-bit start address)
+64MBit SPI RAM
+power supply
+external oscillator
+usb and filter
+rbg led
+power, user led
+reset, user button
