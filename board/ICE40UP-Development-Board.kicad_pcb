@@ -1,7 +1,7 @@
 (kicad_pcb (version 20211014) (generator pcbnew)
 
   (general
-    (thickness 1.6)
+    (thickness 1.606)
   )
 
   (paper "A4")
@@ -14,6 +14,8 @@
 
   (layers
     (0 "F.Cu" signal)
+    (1 "In1.Cu" signal)
+    (2 "In2.Cu" signal)
     (31 "B.Cu" signal)
     (32 "B.Adhes" user "B.Adhesive")
     (33 "F.Adhes" user "F.Adhesive")
@@ -45,6 +47,23 @@
   )
 
   (setup
+    (stackup
+      (layer "F.SilkS" (type "Top Silk Screen"))
+      (layer "F.Paste" (type "Top Solder Paste"))
+      (layer "F.Mask" (type "Top Solder Mask") (thickness 0.025))
+      (layer "F.Cu" (type "copper") (thickness 0.04))
+      (layer "dielectric 1" (type "core") (thickness 0.138) (material "FR4") (epsilon_r 4.3) (loss_tangent 0.02))
+      (layer "In1.Cu" (type "copper") (thickness 0.035))
+      (layer "dielectric 2" (type "prepreg") (thickness 1.13) (material "FR4") (epsilon_r 4.6) (loss_tangent 0.02))
+      (layer "In2.Cu" (type "copper") (thickness 0.035))
+      (layer "dielectric 3" (type "core") (thickness 0.138) (material "FR4") (epsilon_r 4.3) (loss_tangent 0.02))
+      (layer "B.Cu" (type "copper") (thickness 0.04))
+      (layer "B.Mask" (type "Bottom Solder Mask") (thickness 0.025))
+      (layer "B.Paste" (type "Bottom Solder Paste"))
+      (layer "B.SilkS" (type "Bottom Silk Screen"))
+      (copper_finish "ENIG")
+      (dielectric_constraints no)
+    )
     (pad_to_mask_clearance 0)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
