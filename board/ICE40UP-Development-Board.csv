@@ -1,39 +1,38 @@
-Source:,/home/simon/Documents/hardware_dev/projects/ICE40UP-Development-Board/board/ICE40UP-Development-Board.kicad_sch,,,,,
-Date:,Sun 12 Mar 2023 19:20:47 CET,,,,,
-Tool:,Eeschema 6.0.11+dfsg-1~bpo11+1,,,,,
-Generator:,/usr/share/kicad/plugins/bom_csv_grouped_by_value_with_fp.py,,,,,
-Component Count:,95,,,,,
-Ref,Qnty,Value,Cmp name,Footprint,Description,Vendor
-"C1, C2, C6, C9, C13, C18, C20, C22, ",8,100n,C_Small,Capacitor_SMD:C_0402_1005Metric,"Unpolarized capacitor, small symbol",
-"C3, ",1,100u,C_Small,Capacitor_SMD:C_0805_2012Metric,"Unpolarized capacitor, small symbol",
-"C4, C11, C14, ",3,10u,C_Small,Capacitor_SMD:C_0402_1005Metric,"Unpolarized capacitor, small symbol",
-"C5, C8, C12, C16, C17, C21, C23, ",7,1u,C_Small,Capacitor_SMD:C_0402_1005Metric,"Unpolarized capacitor, small symbol",
-"C7, C10, C15, ",3,10n,C_Small,Capacitor_SMD:C_0402_1005Metric,"Unpolarized capacitor, small symbol",
-"C19, ",1,15p?,C_Small,Capacitor_SMD:C_0402_1005Metric,"Unpolarized capacitor, small symbol",
-"F1, ",1,Fuse_Small,Fuse_Small,Fuse:Fuse_0805_2012Metric,"Fuse, small symbol",
-"FB1, ",1,FerriteBead_Small,FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,"Ferrite bead, small symbol",
-"JP1, ",1,1V2EN,SolderJumper_2_Open,Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,"Solder Jumper, 2-pole, open",
-"JP2, ",1,3V3EN,SolderJumper_2_Open,Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,"Solder Jumper, 2-pole, open",
-"R1, R2, ",2,22R,R_Small,Resistor_SMD:R_01005_0402Metric,"Resistor, small symbol",
-"R3, R4, ",2,5k11,R_Small,Resistor_SMD:R_01005_0402Metric,"Resistor, small symbol",
-"R5, ",1,1Meg,R_Small,Resistor_SMD:R_01005_0402Metric,"Resistor, small symbol",
-"R6, ",1,100R,R_Small,Resistor_SMD:R_01005_0402Metric,"Resistor, small symbol",
-"R7, R9, R11, R12, R13, R15, ",6,10k,R_Small,Resistor_SMD:R_01005_0402Metric,"Resistor, small symbol",
-"R8, R10, ",2,270R,R_Small,Resistor_SMD:R_01005_0402Metric,"Resistor, small symbol",
-"R14, ",1,2k2,R_Small,Resistor_SMD:R_01005_0402Metric,"Resistor, small symbol",
-"S1, ",1,CONF,SW_Push,myLib:SW_SPST_EVQP2,"Push button switch, generic, two pins",
-"S2, ",1,RST,SW_Push,myLib:SW_SPST_EVQP2,"Push button switch, generic, two pins",
-"TP1, ",1,VBUS,TestPoint_Small,myLib:PinSocket_1x01_P2.54mm_Vertical_SMD,test point,
-"TP2, TP3, TP4, TP5, TP6, TP7, TP8, TP9, TP10, TP11, TP12, ",11,TestPoint_Small,TestPoint_Small,myLib:PinSocket_1x01_P2.54mm_Vertical_SMD,test point,
-"V1, ",1,ICE40UP5K-SG48ITR,ICE40UP5K-SG48ITR,Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm,"iCE40 UltraPlus FPGA, 5280 LUTs, 1.2V, 48-pin QFN",
-"V2, ",1,USBLC6-4SC6,USBLC6-4SC6,Package_TO_SOT_SMD:SOT-23-6,"Very low capacitance ESD protection diode, 4 data-line, SOT-23-6",
-"V3, ",1,TLV7111233DSER,MIC5355-S4YMME,Package_SON:WSON-6_1.5x1.5mm_P0.5mm,"Dual 500mA μCap Low Dropout Micropower Linear Regulator, 3.3V/1.2V, MSOP-8",
-"V4, ",1,PWR,LED_Small,LED_SMD:LED_0603_1608Metric,"Light emitting diode, small symbol",
-"V5, ",1,W25Q128JVS,W25Q128JVS,Package_SO:SOIC-8_5.23x5.23mm_P1.27mm,"128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8",
-"V6, ",1,LED_RGBA,LED_RGBA,myLib:CREE_UHD111A,"RGB LED, red/green/blue/anode",
-"V7, ",1,CONF,LED_Small,LED_SMD:LED_0603_1608Metric,"Light emitting diode, small symbol",
-"V8, ",1,APS6404L,W25Q128JVS,Package_SON:SON-8-1EP_3x2mm_P0.5mm_EP1.4x1.6mm,"128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8",
-"V9, ",1,CDONE,LED_Small,LED_SMD:LED_0603_1608Metric,"Light emitting diode, small symbol",
-"X1, X2, X3, X4, X5, X6, X7, X9, X10, X11, X12, X13, X14, X15, X16, X17, X18, X19, X20, X21, X22, X23, X24, X25, X26, X27, X28, X29, ",28,Conn_01x01,Conn_01x01,myLib:PinHeader_1x01_P2.54mm_Vertical,"Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)",
-"X8, ",1,USB4105-GF-A,USB_C_Receptacle_USB2.0,Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV,USB 2.0-only Type-C Receptacle connector,
-"Y1, ",1,48MHz,ASE-xxxMHz,Oscillator:Oscillator_SMD_SeikoEpson_SG8002CE-4Pin_3.2x2.5mm,"3.3V CMOS SMD Crystal Clock Oscillator, Abracon",
+"Source:","/home/simon/Documents/hardware_dev/projects/ICE40UP-Development-Board/board/ICE40UP-Development-Board.kicad_sch"
+"Date:","Sat 22 Jul 2023 21:45:59 CEST"
+"Tool:","Eeschema 6.0.11+dfsg-1~bpo11+1"
+"Generator:","/usr/share/kicad/plugins/bom_csv_grouped_by_value_with_fp.py"
+"Component Count:","93"
+"Ref","Qnty","Value","Cmp name","Footprint","Description","Vendor"
+"C1, C2, C6, C9, C13, C18, C20, C22, ","8","100n","C_Small","Capacitor_SMD:C_0402_1005Metric","Unpolarized capacitor, small symbol",""
+"C3, ","1","100u","C_Small","Capacitor_SMD:C_0805_2012Metric","Unpolarized capacitor, small symbol",""
+"C4, C11, C14, ","3","10u","C_Small","Capacitor_SMD:C_0402_1005Metric","Unpolarized capacitor, small symbol",""
+"C5, C8, C12, C16, C17, C21, C23, ","7","1u","C_Small","Capacitor_SMD:C_0402_1005Metric","Unpolarized capacitor, small symbol",""
+"C7, C10, C15, ","3","10n","C_Small","Capacitor_SMD:C_0402_1005Metric","Unpolarized capacitor, small symbol",""
+"F1, ","1","Fuse_Small","Fuse_Small","Fuse:Fuse_0805_2012Metric","Fuse, small symbol",""
+"FB1, ","1","FerriteBead_Small","FerriteBead_Small","Inductor_SMD:L_0603_1608Metric","Ferrite bead, small symbol",""
+"JP1, ","1","1V2EN","SolderJumper_2_Open","Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm","Solder Jumper, 2-pole, open",""
+"JP2, ","1","3V3EN","SolderJumper_2_Open","Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm","Solder Jumper, 2-pole, open",""
+"R1, R2, ","2","22R","R_Small","Resistor_SMD:R_01005_0402Metric","Resistor, small symbol",""
+"R3, R4, ","2","5k11","R_Small","Resistor_SMD:R_01005_0402Metric","Resistor, small symbol",""
+"R5, ","1","1Meg","R_Small","Resistor_SMD:R_01005_0402Metric","Resistor, small symbol",""
+"R6, ","1","100R","R_Small","Resistor_SMD:R_01005_0402Metric","Resistor, small symbol",""
+"R7, R9, R11, R12, R13, R15, ","6","10k","R_Small","Resistor_SMD:R_01005_0402Metric","Resistor, small symbol",""
+"R8, R10, ","2","270R","R_Small","Resistor_SMD:R_01005_0402Metric","Resistor, small symbol",""
+"R14, ","1","2k2","R_Small","Resistor_SMD:R_01005_0402Metric","Resistor, small symbol",""
+"S1, ","1","CONF","SW_Push","myLib:SW_SPST_EVQP2","Push button switch, generic, two pins",""
+"S2, ","1","RST","SW_Push","myLib:SW_SPST_EVQP2","Push button switch, generic, two pins",""
+"TP1, ","1","VBUS","TestPoint_Small","myLib:PinSocket_1x01_P2.54mm_Vertical_SMD","test point",""
+"TP2, TP3, TP4, TP5, TP6, TP7, TP8, TP9, TP10, TP11, TP12, ","11","TestPoint_Small","TestPoint_Small","myLib:PinSocket_1x01_P2.54mm_Vertical_SMD","test point",""
+"V1, ","1","ICE40UP5K-SG48ITR","ICE40UP5K-SG48ITR","Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm","iCE40 UltraPlus FPGA, 5280 LUTs, 1.2V, 48-pin QFN",""
+"V2, ","1","USBLC6-4SC6","USBLC6-4SC6","Package_TO_SOT_SMD:SOT-23-6","Very low capacitance ESD protection diode, 4 data-line, SOT-23-6",""
+"V3, ","1","TLV7111233DSER","MIC5355-S4YMME","Package_SON:WSON-6_1.5x1.5mm_P0.5mm","Dual 500mA μCap Low Dropout Micropower Linear Regulator, 3.3V/1.2V, MSOP-8",""
+"V4, ","1","PWR","LED_Small","LED_SMD:LED_0603_1608Metric","Light emitting diode, small symbol",""
+"V5, ","1","W25Q128JVS","W25Q128JVS","Package_SO:SOIC-8_5.23x5.23mm_P1.27mm","128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8",""
+"V6, ","1","LED_RGBA","LED_RGBA","myLib:CREE_UHD111A","RGB LED, red/green/blue/anode",""
+"V7, ","1","CONF","LED_Small","LED_SMD:LED_0603_1608Metric","Light emitting diode, small symbol",""
+"V8, ","1","APS6404L","W25Q128JVS","Package_SON:SON-8-1EP_3x2mm_P0.5mm_EP1.4x1.6mm","128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8",""
+"V9, ","1","CDONE","LED_Small","LED_SMD:LED_0603_1608Metric","Light emitting diode, small symbol",""
+"X1, X2, X3, X4, X5, X6, X7, X9, X10, X11, X12, X13, X14, X15, X16, X17, X18, X19, X21, X22, X23, X24, X25, X26, X27, X28, X29, ","27","Conn_01x01","Conn_01x01","myLib:PinHeader_1x01_P2.54mm_Vertical","Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)",""
+"X8, ","1","USB4105-GF-A","USB_C_Receptacle_USB2.0","Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV","USB 2.0-only Type-C Receptacle connector",""
+"Y1, ","1","48MHz","ASE-xxxMHz","Oscillator:Oscillator_SMD_SeikoEpson_SG8002CE-4Pin_3.2x2.5mm","3.3V CMOS SMD Crystal Clock Oscillator, Abracon",""
