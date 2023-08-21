@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TLV7111233DSER'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "TLV7111233DSER" (!) = "", "SON50P150X150X80-6N", "Small Outline No-lead", "595-TLV7111233DSER", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV7111233DSER?qs=cBe3DO7yhR4lodgkJN%2FvTA%3D%3D", "Dual, 200mA, Low-IQ, Low-Dropout Regulator for Portable Devices", "http://www.ti.com/lit/gpn/tlv711", "0.8 mm"
+END_PART
+
+END.

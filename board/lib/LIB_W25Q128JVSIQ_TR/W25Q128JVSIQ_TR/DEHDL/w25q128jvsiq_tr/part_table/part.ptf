@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'W25Q128JVSIQ_TR'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Winbond", "W25Q128JVSIQ TR" (!) = "", "SOIC127P780X195-8N", "Small Outline Packages", "454-W25Q128JVSIQTR", "https://www.mouser.co.uk/ProductDetail/Winbond/W25Q128JVSIQ-TR?qs=qSfuJ%252Bfl%2Fd7vTyLA9kNdGw%3D%3D", "FLASH - NOR Memory IC 128Mb (16M x 8) SPI - Quad I/O 8-SOIC", "http://www.winbond.com/resource-files/w25q128jv%20spi%20revc%2011162016.pdf", "1.95 mm"
+END_PART
+
+END.

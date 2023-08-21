@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TLV7111233DSER
+D Dual, 200mA, Low-IQ, Low-Dropout Regulator for Portable Devices
+K
+F http://www.ti.com/lit/gpn/tlv711
+$ENDCMP
+#
+#End Doc Library

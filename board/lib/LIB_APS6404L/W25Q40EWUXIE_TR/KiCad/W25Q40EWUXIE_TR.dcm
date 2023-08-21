@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP W25Q40EWUXIE_TR
+D NOR Flash spiFlash, 1.8V 4M-bit, 4Kb Uniform Sector
+K
+F https://www.winbond.com/resource-files/w25q40ewrevf11252015sfdp.pdf
+$ENDCMP
+#
+#End Doc Library

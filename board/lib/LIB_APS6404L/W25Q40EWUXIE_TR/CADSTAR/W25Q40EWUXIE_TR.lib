@@ -1,0 +1,16 @@
+.W25Q40EWUXIE_TR :1 ;NOR Flash spiFlash, 1.8V 4M-bit, 4Kb Uniform Sector
+SON50P300X200X60-9N
+*STM IC
+*NGS
+*PLB 1="/CS" 2="DO (IO1 )" 3="/WP (IO2 )" 4="GND_1" 5="DI (IO0 )" 6="CLK" 7="/HOLD (IO3 )" 8="VCC" 9="GND_2"
+*MXP 9
+*DFN W25Q40EWUXIE_TR
+~!Mouser Part Number (454-W25Q40EWUXIETR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Winbond/W25Q40EWUXIE-TR?qs=qSfuJ%252Bfl%2Fd5fDNE4rBAmrw%3D%3D)
+~!Manufacturer_Name (Winbond)
+~!Manufacturer_Part_Number (W25Q40EWUXIE TR)
+~!Link Datasheet (https://www.winbond.com/resource-files/w25q40ewrevf11252015sfdp.pdf)
+~!Height (0.6mm)
+~!3D_Model (W25Q40EWUXIE_TR)
+W25Q40EWUXIE_TR
+1.1!U 2.1!U 3.1!U 4.1!U 9.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

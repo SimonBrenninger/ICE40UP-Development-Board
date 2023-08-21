@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP W25Q128JVSIQ_TR
+D FLASH - NOR Memory IC 128Mb (16M x 8) SPI - Quad I/O 8-SOIC
+K
+F http://www.winbond.com/resource-files/w25q128jv%20spi%20revc%2011162016.pdf
+$ENDCMP
+#
+#End Doc Library

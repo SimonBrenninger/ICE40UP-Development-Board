@@ -1,0 +1,16 @@
+.TLV7111233DSER :1 ;Dual, 200mA, Low-IQ, Low-Dropout Regulator for Portable Devices
+SON50P150X150X80-6N
+*STM IC
+*NGS
+*PLB 1="EN1" 2="IN" 3="EN2" 4="GND" 5="OUT2" 6="OUT1"
+*MXP 6
+*DFN TLV7111233DSER
+~!Mouser Part Number (595-TLV7111233DSER)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV7111233DSER?qs=cBe3DO7yhR4lodgkJN%2FvTA%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TLV7111233DSER)
+~!Link Datasheet (http://www.ti.com/lit/gpn/tlv711)
+~!Height (0.8mm)
+~!3D_Model (TLV7111233DSER)
+TLV7111233DSER
+1.1!U 2.1!U 3.1!U 6.1!U 5.1!U 4.1!U 

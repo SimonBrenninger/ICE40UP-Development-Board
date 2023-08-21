@@ -1,0 +1,16 @@
+.W25Q128JVSIQ_TR :1 ;FLASH - NOR Memory IC 128Mb (16M x 8) SPI - Quad I/O 8-SOIC
+SOIC127P780X195-8N
+*STM L
+*NGS
+*PLB 1="/CS" 2="DO (IO1)" 3="IO2" 4="GND" 5="DI (IO0)" 6="CLK" 7="IO" 8="VCC"
+*MXP 8
+*DFN W25Q128JVSIQ_TR
+~!Mouser Part Number (454-W25Q128JVSIQTR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Winbond/W25Q128JVSIQ-TR?qs=qSfuJ%252Bfl%2Fd7vTyLA9kNdGw%3D%3D)
+~!Manufacturer_Name (Winbond)
+~!Manufacturer_Part_Number (W25Q128JVSIQ TR)
+~!Link Datasheet (http://www.winbond.com/resource-files/w25q128jv%20spi%20revc%2011162016.pdf)
+~!Height (1.95mm)
+~!3D_Model (W25Q128JVSIQ_TR)
+W25Q128JVSIQ_TR
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

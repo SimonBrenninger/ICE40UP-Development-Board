@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'W25Q40EWUXIE_TR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Winbond", "W25Q40EWUXIE TR" (!) = "", "SON50P300X200X60-9N", "Small Outline No-lead", "454-W25Q40EWUXIETR", "https://www.mouser.co.uk/ProductDetail/Winbond/W25Q40EWUXIE-TR?qs=qSfuJ%252Bfl%2Fd5fDNE4rBAmrw%3D%3D", "NOR Flash spiFlash, 1.8V 4M-bit, 4Kb Uniform Sector", "https://www.winbond.com/resource-files/w25q40ewrevf11252015sfdp.pdf", "0.6 mm"
+END_PART
+
+END.

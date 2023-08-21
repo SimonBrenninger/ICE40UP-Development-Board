@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TLV7111233DSER"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-07-15-02:52:40)
+    (mountForm default
+        (footprintRef "SON50P150X150X80-6N")
+        (spec "System")
+    )
+)
