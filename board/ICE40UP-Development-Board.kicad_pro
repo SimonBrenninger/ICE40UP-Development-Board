@@ -421,14 +421,14 @@
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
+        "microvia_diameter": 0.0,
+        "microvia_drill": 0.0,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "track_width": 0.15,
+        "via_diameter": 0.5,
+        "via_drill": 0.1,
         "wire_width": 6
       },
       {
@@ -736,6 +736,14 @@
       {
         "netclass": "USB_diff",
         "pattern": "USB_P-"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "IOB_23b"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "IOB_29b"
       }
     ]
   },
