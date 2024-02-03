@@ -1,0 +1,11 @@
+datasheet
+	pinout y
+	electrical characteristics y
+	package y
+	ICE40: flash, programming, clk net, reset, rgb(current sink?), cdone
+pwr led
+clearance (tag-connect)
+drc
+tag-connect pinout
+
+correct parts(mouser)
