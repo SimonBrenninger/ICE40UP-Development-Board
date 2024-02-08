@@ -9,4 +9,6 @@ drc y
 tag-connect pinout y
 reset signal? y
 
+quiescent current
+
 correct parts(mouser)
