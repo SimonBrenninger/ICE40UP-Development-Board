@@ -9,6 +9,92 @@ drc y
 tag-connect pinout y
 reset signal? y
 
-quiescent current
+v2:
+MRAM as single memory: EM032LXOAB320IS1T
+
+quiescent current:
+pwr:
+- usb:
+    2*978uA (5k11)
+    120uA (10k)
+memory:
+  3*330uA (10k) (only when each SPI SS / SCK pin is low)
+led / switches:
+  2*330uA (10k)
+  4*330uA (10k) (only when either a button or a led is active)
+esd:
+  150nA
+ldo:
+  110uA
+flash:
+  60uA
+sram:
+  350uA
+cmos oscillator:
+  15uA
+ICE40UP:
+- startup peak: 25.5mA
+- static: 76.55uA
+
+appr. peak: 28.8mA
+appr. static: 3.4mA
 
 correct parts(mouser)
+
+fuse footprint
+de-jitter switches (RC low-pass)
+fuse (200mA, 500mA, 1A)
+
+current consumption estimation:
+10mA@2.3V (red led)
+
+esp-prog jtag:
+front:
+no.1
+vcc	tms
+gnd	tck
+gnd	tdo
+gnd	tdi
+gnd	nc
+back:
+	no.1
+tms	vcc
+tck	gnd
+tdo	gnd
+tdi	gnd
+nc	gnd
+
+tag-connect
+1vcc	2tms
+3gnd	4tck
+5gnd	6tdo
+7gnd	8tdi
+9gnd	10nc
+
+quiescent current:
+pwr:
+- usb:
+    2*978uA (5k11)
+    120uA (10k)
+memory:
+  3*330uA (10k) (only when each SPI SS / SCK pin is low)
+led / switches:
+  2*330uA (10k)
+  4*330uA (10k) (only when either a button or a led is active)
+esd:
+  150nA
+ldo:
+  110uA
+flash:
+  60uA
+sram:
+  350uA
+cmos oscillator:
+  15uA
+ICE40UP:
+- startup peak: 25.5mA
+- static: 76.55uA
+
+------------------------------------------
+appr. peak: 28.8mA
+appr. static: 3.4mA
