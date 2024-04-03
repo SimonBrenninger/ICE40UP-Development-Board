@@ -103,3 +103,4 @@ appr. static: 3.4mA
 while rom programming:
 keep fpga in reset state the whole time (reset low)!
 1V2 & 3v3 enable jumper as 0402 footprint (top layer)?
+tag-connect esd protection

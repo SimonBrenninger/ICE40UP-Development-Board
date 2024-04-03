@@ -1,4 +1,4 @@
-23059939064143734
+23061650027529983
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94478,6 +94478,13 @@ USB_C_Receptacle_Amphenol_12401598
 0
 28
 25
+myLib
+USB_C_Receptacle_G-Switch_GT-USB-7010ASV_mod
+USB Type C, right-angle, SMT, https://datasheet.lcsc.com/lcsc/2204071530_G-Switch-GT-USB-7010ASV_C2988369.pdf
+USB C Type-C Receptacle SMD
+0
+20
+17
 myLib
 USB_C_Receptacle_Molex_216990-0003
 

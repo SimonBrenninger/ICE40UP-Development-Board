@@ -7,7 +7,7 @@
   (title_block
     (title "ICE40UP FPGA Development Board")
     (date "2023-03-02")
-    (rev "v0.1")
+    (rev "v1.1")
     (comment 4 "Author: Simon Brenninger")
   )
 
@@ -2206,6 +2206,9 @@
   (junction (at 99.06 181.61) (diameter 0) (color 0 0 0 0)
     (uuid 0128d99f-e706-48dd-9391-3bc7eb9172e8)
   )
+  (junction (at 78.74 177.8) (diameter 0) (color 0 0 0 0)
+    (uuid 05af4235-930c-4451-9999-604316c7c38a)
+  )
   (junction (at 79.375 73.66) (diameter 0) (color 0 0 0 0)
     (uuid 08284ed1-02fb-4fed-bb7b-a8f7a551808e)
   )
@@ -2242,6 +2245,9 @@
   (junction (at 209.55 69.85) (diameter 0) (color 0 0 0 0)
     (uuid 4c89cabe-7c62-4906-a40a-9e000126fca5)
   )
+  (junction (at 75.565 159.385) (diameter 0) (color 0 0 0 0)
+    (uuid 4db377c7-92b0-4ab6-b5be-eee397c9aadb)
+  )
   (junction (at 208.28 20.32) (diameter 0) (color 0 0 0 0)
     (uuid 53564a87-bb4e-4ac4-a27a-be83a16d87f8)
   )
@@ -2256,6 +2262,9 @@
   )
   (junction (at 59.69 26.67) (diameter 0) (color 0 0 0 0)
     (uuid 5c11b150-2360-4d7a-996f-ca877e27c6d3)
+  )
+  (junction (at 71.755 180.34) (diameter 0) (color 0 0 0 0)
+    (uuid 5e1e639b-38c5-413f-aa3e-4a30cefa7b42)
   )
   (junction (at 33.02 177.8) (diameter 0) (color 0 0 0 0)
     (uuid 62b83d99-bd70-4ffa-8299-598682c32bf3)
@@ -2443,6 +2452,10 @@
     (stroke (width 0) (type default))
     (uuid 1231933e-3305-43cd-bd69-3bccfa2d80dc)
   )
+  (wire (pts (xy 75.565 159.385) (xy 78.74 159.385))
+    (stroke (width 0) (type default))
+    (uuid 127e929b-f403-4129-ba47-837db403d0e8)
+  )
   (wire (pts (xy 99.06 129.54) (xy 99.06 127))
     (stroke (width 0) (type default))
     (uuid 12fb3269-9b14-4ada-b612-4e879c2b32ae)
@@ -2581,9 +2594,13 @@
     (stroke (width 0) (type default))
     (uuid 2f38a4a3-1539-4e34-a5c3-137fd39f13ce)
   )
-  (wire (pts (xy 72.39 170.18) (xy 68.58 170.18))
+  (wire (pts (xy 81.915 170.18) (xy 68.58 170.18))
     (stroke (width 0) (type default))
     (uuid 2f8c6f2e-e254-4d4f-b7e3-e0d1a3602820)
+  )
+  (wire (pts (xy 75.565 159.385) (xy 71.755 159.385))
+    (stroke (width 0) (type default))
+    (uuid 30564a50-fcd8-4a8a-80e8-504a5632e118)
   )
   (wire (pts (xy 27.94 86.36) (xy 38.1 86.36))
     (stroke (width 0) (type default))
@@ -2709,6 +2726,10 @@
     (stroke (width 0) (type default))
     (uuid 404bab91-c547-43aa-8698-a9f7a7bd640b)
   )
+  (wire (pts (xy 78.74 177.8) (xy 68.58 177.8))
+    (stroke (width 0) (type default))
+    (uuid 408f6fdf-64ce-4485-ba44-33c3a4930ffa)
+  )
   (wire (pts (xy 116.205 15.875) (xy 118.745 15.875))
     (stroke (width 0) (type default))
     (uuid 409b96f5-1cff-42f1-aec1-dff5acd23505)
@@ -2773,6 +2794,10 @@
     (stroke (width 0) (type default))
     (uuid 4f658a3a-c08c-4d14-89f6-6d4ea62f52ca)
   )
+  (wire (pts (xy 71.755 167.64) (xy 71.755 180.34))
+    (stroke (width 0) (type default))
+    (uuid 4f8e9695-1b2e-4c3b-9a72-f955a7bfab07)
+  )
   (wire (pts (xy 53.34 33.02) (xy 53.34 34.29))
     (stroke (width 0) (type default))
     (uuid 50aa5d79-95c7-4590-8f4a-8eaabbaef338)
@@ -2780,6 +2805,10 @@
   (wire (pts (xy 29.21 177.8) (xy 33.02 177.8))
     (stroke (width 0) (type default))
     (uuid 51ecda3a-5ab3-4498-8a5f-98fba756e8a9)
+  )
+  (wire (pts (xy 71.755 159.385) (xy 71.755 162.56))
+    (stroke (width 0) (type default))
+    (uuid 5233e5e9-931d-4735-a351-0c82d71de1fa)
   )
   (wire (pts (xy 205.74 71.12) (xy 205.74 69.85))
     (stroke (width 0) (type default))
@@ -3056,6 +3085,10 @@
     (stroke (width 0) (type default))
     (uuid 95bcf879-d0c9-4ae3-9710-e428c52a29e4)
   )
+  (wire (pts (xy 78.74 167.64) (xy 78.74 177.8))
+    (stroke (width 0) (type default))
+    (uuid 96f727f1-083e-4c3d-8181-87db5dde502a)
+  )
   (wire (pts (xy 25.4 86.36) (xy 27.94 86.36))
     (stroke (width 0) (type default))
     (uuid 99216569-107d-4549-adb2-2bf64db99465)
@@ -3164,7 +3197,7 @@
     (stroke (width 0) (type default))
     (uuid af49eaf6-089a-4148-b1ca-8e7075e72385)
   )
-  (wire (pts (xy 72.39 172.72) (xy 68.58 172.72))
+  (wire (pts (xy 81.915 172.72) (xy 68.58 172.72))
     (stroke (width 0) (type default))
     (uuid afb82b23-0eb2-4303-96ae-d0b36a1c70c5)
   )
@@ -3196,9 +3229,13 @@
     (stroke (width 0) (type default))
     (uuid b5861b7f-fa45-42ec-977d-20a305be6c3c)
   )
-  (wire (pts (xy 72.39 180.34) (xy 68.58 180.34))
+  (wire (pts (xy 68.58 180.34) (xy 71.755 180.34))
     (stroke (width 0) (type default))
     (uuid b71e2cae-c07b-4ceb-98ba-e35f51eb6c1e)
+  )
+  (wire (pts (xy 78.74 159.385) (xy 78.74 162.56))
+    (stroke (width 0) (type default))
+    (uuid b73e6b4a-7a75-4098-bef4-6309e3a2a4ee)
   )
   (wire (pts (xy 67.31 27.94) (xy 67.31 26.67))
     (stroke (width 0) (type default))
@@ -3332,7 +3369,7 @@
     (stroke (width 0) (type default))
     (uuid cd020cda-6696-4cdb-aff5-59ff634cd497)
   )
-  (wire (pts (xy 72.39 177.8) (xy 68.58 177.8))
+  (wire (pts (xy 81.915 177.8) (xy 78.74 177.8))
     (stroke (width 0) (type default))
     (uuid cd622126-81c6-4284-aef1-145adb795848)
   )
@@ -3461,6 +3498,10 @@
     (stroke (width 0) (type default))
     (uuid e7cb56fd-5709-4977-9dce-b956e3ae044e)
   )
+  (wire (pts (xy 71.755 180.34) (xy 81.915 180.34))
+    (stroke (width 0) (type default))
+    (uuid e846907b-de56-4449-8c01-1d4e8f095766)
+  )
   (wire (pts (xy 223.52 76.2) (xy 223.52 77.47))
     (stroke (width 0) (type default))
     (uuid e8f11087-4fb5-4443-8a6d-b132cccb0799)
@@ -3564,6 +3605,10 @@
   (wire (pts (xy 67.945 76.2) (xy 67.945 73.66))
     (stroke (width 0) (type default))
     (uuid fd5579c6-837b-4aef-b465-ecf6a4ca4327)
+  )
+  (wire (pts (xy 75.565 157.48) (xy 75.565 159.385))
+    (stroke (width 0) (type default))
+    (uuid fd6b4762-bbc5-4d73-a040-bfced5a58b98)
   )
   (wire (pts (xy 241.3 139.7) (xy 245.11 139.7))
     (stroke (width 0) (type default))
@@ -3910,10 +3955,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "SPI_SO" (shape input) (at 72.39 170.18 0) (fields_autoplaced)
+  (global_label "SPI_SO" (shape input) (at 81.915 170.18 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 4d77730a-94de-49ed-bf44-ad1d39a26821)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 81.395 170.1006 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 90.92 170.1006 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -4015,10 +4060,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "SPI_~{WP}" (shape input) (at 72.39 177.8 0) (fields_autoplaced)
+  (global_label "SPI_~{WP}" (shape input) (at 81.915 177.8 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 6b1fd1e7-a02f-41d3-b21d-d16704403b30)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 81.5764 177.7206 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 91.1014 177.7206 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -4379,10 +4424,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "SPI_SI" (shape input) (at 72.39 172.72 0) (fields_autoplaced)
+  (global_label "SPI_SI" (shape input) (at 81.915 172.72 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid e2eeb12c-3d3d-4d67-ae6b-daeddcc684c4)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 80.6693 172.6406 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 90.1943 172.6406 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -4428,10 +4473,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "SPI_~{HOLD}" (shape input) (at 72.39 180.34 0) (fields_autoplaced)
+  (global_label "SPI_~{HOLD}" (shape input) (at 81.915 180.34 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid f900cb00-58c3-4bb8-8888-cd834991e1be)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 83.8141 180.2606 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 93.3391 180.2606 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -4467,7 +4512,7 @@
   (symbol (lib_id "Device:R_Small") (at 113.665 22.225 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 02a56e2b-d63c-445a-901d-9a624fccbcd4)
-    (property "Reference" "R9" (at 113.665 24.13 90)
+    (property "Reference" "R11" (at 113.665 24.13 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22R" (at 114.3 26.035 90)
@@ -4484,7 +4529,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "R9") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -4493,7 +4538,7 @@
   (symbol (lib_id "power:+1V2") (at 92.075 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 08c13c64-1180-4042-a53b-7a705d8f4e5e)
-    (property "Reference" "#PWR019" (at 92.075 101.6 0)
+    (property "Reference" "#PWR020" (at 92.075 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V2" (at 92.075 93.98 0)
@@ -4509,7 +4554,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -4518,7 +4563,7 @@
   (symbol (lib_id "power:+3V3") (at 104.775 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0a6c0c44-7578-41ed-ad49-fa2595dd3c69)
-    (property "Reference" "#PWR024" (at 104.775 101.6 0)
+    (property "Reference" "#PWR025" (at 104.775 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 104.775 93.98 0)
@@ -4534,7 +4579,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -4543,7 +4588,7 @@
   (symbol (lib_id "power:GND") (at 99.06 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0b70477a-f64e-499c-a88d-bf732d6d0ddd)
-    (property "Reference" "#PWR021" (at 99.06 152.4 0)
+    (property "Reference" "#PWR022" (at 99.06 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 99.06 149.86 0)
@@ -4559,7 +4604,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -4568,7 +4613,7 @@
   (symbol (lib_id "power:GND") (at 59.055 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0c7c7545-4b8d-4fbb-bb94-ed787c1c1b6f)
-    (property "Reference" "#PWR013" (at 59.055 91.44 0)
+    (property "Reference" "#PWR012" (at 59.055 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 59.055 88.9 0)
@@ -4584,7 +4629,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -4593,7 +4638,7 @@
   (symbol (lib_id "power:+3V3") (at 113.665 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0cd4cc0d-f3f5-42f5-a31d-34a6c36c1b70)
-    (property "Reference" "#PWR027" (at 113.665 71.12 0)
+    (property "Reference" "#PWR028" (at 113.665 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 113.665 63.5 0)
@@ -4609,7 +4654,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -4618,7 +4663,7 @@
   (symbol (lib_id "Device:C_Small") (at 59.055 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0dbab14e-f249-4e57-834b-323fe783fdf3)
-    (property "Reference" "C4" (at 60.96 78.74 0)
+    (property "Reference" "C3" (at 60.96 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 60.96 80.645 0)
@@ -4638,7 +4683,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "C4") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -4647,7 +4692,7 @@
   (symbol (lib_id "FPGA_Lattice:ICE40UP5K-SG48ITR") (at 257.81 127 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 10de76ea-b846-4207-be5b-320b3a57c9b6)
-    (property "Reference" "V6" (at 257.81 155.575 0)
+    (property "Reference" "V5" (at 257.81 155.575 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ICE40UP5K-SG48ITR" (at 257.81 158.115 0)
@@ -4711,7 +4756,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "V6") (unit 2)
+          (reference "V5") (unit 2)
         )
       )
     )
@@ -4720,7 +4765,7 @@
   (symbol (lib_id "Device:R_Small") (at 132.08 181.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 15ed1811-a4bc-4993-bdcd-4667f6243a1d)
-    (property "Reference" "R12" (at 133.35 180.975 0)
+    (property "Reference" "R14" (at 133.35 180.975 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 133.35 182.88 0)
@@ -4737,7 +4782,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "R12") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -4772,7 +4817,7 @@
   (symbol (lib_id "Device:R_Small") (at 113.665 15.875 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 185ea0b3-c5e4-4a92-9670-76c8b0d424f3)
-    (property "Reference" "R8" (at 113.665 17.78 90)
+    (property "Reference" "R10" (at 113.665 17.78 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k5" (at 114.3 19.685 90)
@@ -4789,7 +4834,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "R8") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -4798,7 +4843,7 @@
   (symbol (lib_id "Device:R_Small") (at 143.51 137.16 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1a2542c5-7e06-47b2-a49e-f08c191d844e)
-    (property "Reference" "R14" (at 140.335 139.065 90)
+    (property "Reference" "R16" (at 140.335 139.065 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "470R" (at 145.415 139.065 90)
@@ -4815,7 +4860,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "R14") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -4929,7 +4974,7 @@
   (symbol (lib_id "power:+3V3") (at 99.06 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 23a87133-96b7-476a-924f-0f0bb1d1030d)
-    (property "Reference" "#PWR020" (at 99.06 130.81 0)
+    (property "Reference" "#PWR021" (at 99.06 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 99.06 123.19 0)
@@ -4945,7 +4990,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -4954,7 +4999,7 @@
   (symbol (lib_id "power:+3V3") (at 55.88 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 28f11332-5769-4705-b9df-8c0917275058)
-    (property "Reference" "#PWR09" (at 55.88 167.64 0)
+    (property "Reference" "#PWR010" (at 55.88 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 55.88 160.02 0)
@@ -4970,7 +5015,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -4979,7 +5024,7 @@
   (symbol (lib_id "Device:R_Small") (at 168.91 158.75 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2bea89b7-cab9-48c6-9c60-92bb59873e9d)
-    (property "Reference" "R18" (at 172.085 158.115 0)
+    (property "Reference" "R20" (at 172.085 158.115 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2k2" (at 172.72 160.02 0)
@@ -4996,7 +5041,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "R18") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -5005,7 +5050,7 @@
   (symbol (lib_id "power:GND") (at 203.2 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2c5d3acc-62de-4750-8f6f-89515f08eec4)
-    (property "Reference" "#PWR051" (at 203.2 114.3 0)
+    (property "Reference" "#PWR052" (at 203.2 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 203.2 111.76 0)
@@ -5021,7 +5066,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR052") (unit 1)
         )
       )
     )
@@ -5030,7 +5075,7 @@
   (symbol (lib_id "power:GND") (at 89.535 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2d3b4db1-cbe5-4eef-9ba8-9268e5753eac)
-    (property "Reference" "#PWR018" (at 89.535 91.44 0)
+    (property "Reference" "#PWR019" (at 89.535 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 89.535 88.9 0)
@@ -5046,7 +5091,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -5095,7 +5140,7 @@
   (symbol (lib_id "Device:R_Small") (at 39.37 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 31c91ce8-8118-4ca9-ba2f-ca5c3442757d)
-    (property "Reference" "R3" (at 40.64 167.005 0)
+    (property "Reference" "R4" (at 40.64 167.005 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 40.64 168.91 0)
@@ -5112,7 +5157,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "R3") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -5181,7 +5226,7 @@
   (symbol (lib_id "power:+3V3") (at 257.81 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 363f73a5-d255-4ab6-8d9b-00b30bbc7bd3)
-    (property "Reference" "#PWR056" (at 257.81 100.33 0)
+    (property "Reference" "#PWR057" (at 257.81 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 257.81 92.71 0)
@@ -5197,7 +5242,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR057") (unit 1)
         )
       )
     )
@@ -5206,7 +5251,7 @@
   (symbol (lib_id "power:+3V3") (at 39.37 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 39508d66-ce7e-4665-842b-e2b357ec705d)
-    (property "Reference" "#PWR05" (at 39.37 167.64 0)
+    (property "Reference" "#PWR06" (at 39.37 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 39.37 160.02 0)
@@ -5222,7 +5267,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -5257,7 +5302,7 @@
   (symbol (lib_id "power:GND") (at 55.88 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3a8c9835-5ec8-416a-9d7e-0016f7a30883)
-    (property "Reference" "#PWR08" (at 55.88 152.4 0)
+    (property "Reference" "#PWR09" (at 55.88 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 55.88 149.86 0)
@@ -5273,7 +5318,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -5282,7 +5327,7 @@
   (symbol (lib_id "FPGA_Lattice:ICE40UP5K-SG48ITR") (at 145.415 33.655 0) (unit 4)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3e00682c-cb04-4f2f-8ab2-38328fd19424)
-    (property "Reference" "V6" (at 146.685 42.545 0)
+    (property "Reference" "V5" (at 146.685 42.545 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ICE40UP5K-SG48ITR" (at 146.685 45.085 0)
@@ -5346,7 +5391,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "V6") (unit 4)
+          (reference "V5") (unit 4)
         )
       )
     )
@@ -5406,7 +5451,7 @@
   (symbol (lib_id "power:+3V3") (at 168.91 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 452c6f20-336d-4373-b7cc-8fbc744fcb03)
-    (property "Reference" "#PWR044" (at 168.91 158.75 0)
+    (property "Reference" "#PWR045" (at 168.91 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 168.91 151.13 0)
@@ -5422,7 +5467,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
     )
@@ -5483,7 +5528,7 @@
   (symbol (lib_id "power:GND") (at 182.88 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4dabeec5-1c66-434e-96d2-25ab093cd9e3)
-    (property "Reference" "#PWR047" (at 182.88 85.09 0)
+    (property "Reference" "#PWR048" (at 182.88 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 182.88 82.55 0)
@@ -5499,7 +5544,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR048") (unit 1)
         )
       )
     )
@@ -5508,7 +5553,7 @@
   (symbol (lib_id "FPGA_Lattice:ICE40UP5K-SG48ITR") (at 208.28 39.37 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4f180b87-c3c5-49b9-bd72-12953cd41f1e)
-    (property "Reference" "V6" (at 206.375 56.515 0)
+    (property "Reference" "V5" (at 206.375 56.515 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ICE40UP5K-SG48ITR" (at 198.755 59.055 0)
@@ -5572,7 +5617,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "V6") (unit 3)
+          (reference "V5") (unit 3)
         )
       )
     )
@@ -5581,7 +5626,7 @@
   (symbol (lib_id "power:+3V3") (at 160.02 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4f4b9ee5-b837-4b5d-a9ea-e07b8ce135cc)
-    (property "Reference" "#PWR041" (at 160.02 119.38 0)
+    (property "Reference" "#PWR042" (at 160.02 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 160.02 111.76 0)
@@ -5597,7 +5642,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -5661,7 +5706,7 @@
   (symbol (lib_id "power:+1V2") (at 182.88 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 50f9b42c-54db-4594-8062-f567f5323215)
-    (property "Reference" "#PWR046" (at 182.88 72.39 0)
+    (property "Reference" "#PWR047" (at 182.88 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V2" (at 182.88 64.77 0)
@@ -5677,7 +5722,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR047") (unit 1)
         )
       )
     )
@@ -5686,7 +5731,7 @@
   (symbol (lib_id "Device:R_Small") (at 113.665 48.895 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 53e1addd-f53c-462b-95a0-a9bc76d015c7)
-    (property "Reference" "R10" (at 113.665 50.8 90)
+    (property "Reference" "R12" (at 113.665 50.8 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22R" (at 114.3 52.705 90)
@@ -5703,7 +5748,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "R10") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -5712,7 +5757,7 @@
   (symbol (lib_id "power:+3V3") (at 209.55 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 54d288be-fbcf-4699-8393-756272d8d2a0)
-    (property "Reference" "#PWR053" (at 209.55 72.39 0)
+    (property "Reference" "#PWR054" (at 209.55 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 209.55 64.77 0)
@@ -5728,7 +5773,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR053") (unit 1)
+          (reference "#PWR054") (unit 1)
         )
       )
     )
@@ -5908,7 +5953,7 @@
   (symbol (lib_id "Device:R_Small") (at 75.565 81.28 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6374c7a1-b84e-4fbe-98d1-9ec34f84bd98)
-    (property "Reference" "R7" (at 78.105 80.645 0)
+    (property "Reference" "R8" (at 78.105 80.645 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 78.74 82.55 0)
@@ -5925,7 +5970,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "R7") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -5960,7 +6005,7 @@
   (symbol (lib_id "power:+3V3") (at 132.08 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 676ae822-777b-4c5d-b4bc-cbfc272cdbdd)
-    (property "Reference" "#PWR030" (at 132.08 157.48 0)
+    (property "Reference" "#PWR031" (at 132.08 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 132.08 149.86 0)
@@ -5976,7 +6021,33 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR031") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 78.74 165.1 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 689aae33-44e4-4c85-b2b2-f2a7f75a63a8)
+    (property "Reference" "R9" (at 80.01 164.465 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10k" (at 80.01 166.37 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 78.74 165.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 78.74 165.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 91030372-264f-41a7-942d-bd76da385799))
+    (pin "2" (uuid a57515d2-4e0b-47d9-930f-a9861b254ef2))
+    (instances
+      (project "ICE40UP-Development-Board"
+        (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -6010,7 +6081,7 @@
   (symbol (lib_id "power:GND") (at 99.06 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6a1a9175-24cb-4778-8755-0b00350c14a1)
-    (property "Reference" "#PWR023" (at 99.06 191.77 0)
+    (property "Reference" "#PWR024" (at 99.06 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 99.06 189.23 0)
@@ -6026,7 +6097,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -6142,7 +6213,7 @@
   (symbol (lib_id "power:+3V3") (at 162.56 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6f5134a6-321a-4bbc-afc8-59846e7cbdef)
-    (property "Reference" "#PWR042" (at 162.56 182.88 0)
+    (property "Reference" "#PWR043" (at 162.56 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 162.56 175.26 0)
@@ -6158,7 +6229,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
     )
@@ -6215,6 +6286,31 @@
     )
   )
 
+  (symbol (lib_id "power:+3V3") (at 75.565 157.48 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 755ccb05-8a5c-4080-a309-a8582c04f258)
+    (property "Reference" "#PWR017" (at 75.565 161.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3V3" (at 75.565 153.67 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 75.565 157.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 75.565 157.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d23ab38c-fb9a-4621-901a-91c0d8f83699))
+    (instances
+      (project "ICE40UP-Development-Board"
+        (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
+          (reference "#PWR017") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:C_Small") (at 213.36 20.32 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 78d3aa10-4d5d-4ec9-a4a5-521a4b9e78c8)
@@ -6244,7 +6340,7 @@
   (symbol (lib_id "power:+3V3") (at 132.08 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 79d8df8a-59ef-4b4d-af1f-79ffa8fe1df9)
-    (property "Reference" "#PWR031" (at 132.08 181.61 0)
+    (property "Reference" "#PWR032" (at 132.08 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 132.08 173.99 0)
@@ -6260,7 +6356,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -6294,7 +6390,7 @@
   (symbol (lib_id "power:+3V3") (at 99.06 166.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 80ab87fc-d71d-413b-bbb0-f192d3f85ea4)
-    (property "Reference" "#PWR022" (at 99.06 170.18 0)
+    (property "Reference" "#PWR023" (at 99.06 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 99.06 162.56 0)
@@ -6310,7 +6406,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -6319,7 +6415,7 @@
   (symbol (lib_id "Device:R_Small") (at 154.94 116.84 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 80dad7c3-a0b6-4368-aa27-978aa05a71da)
-    (property "Reference" "R16" (at 154.94 118.745 90)
+    (property "Reference" "R18" (at 154.94 118.745 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 154.94 120.65 90)
@@ -6336,7 +6432,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "R16") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -6345,7 +6441,7 @@
   (symbol (lib_id "power:GND") (at 55.88 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 813951ec-d465-41f0-b560-070e22283b16)
-    (property "Reference" "#PWR011" (at 55.88 40.64 0)
+    (property "Reference" "#PWR07" (at 55.88 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 55.88 38.1 0)
@@ -6361,7 +6457,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -6370,7 +6466,7 @@
   (symbol (lib_id "Device:R_Small") (at 162.56 181.61 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 82365f66-f418-4f25-99f2-e1d40ebbeede)
-    (property "Reference" "R17" (at 165.735 180.975 0)
+    (property "Reference" "R19" (at 165.735 180.975 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "33k" (at 165.735 182.88 0)
@@ -6387,7 +6483,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "R17") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -6462,7 +6558,7 @@
   (symbol (lib_id "power:GND") (at 220.98 21.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 865620b3-87e1-4158-9978-94e0db45a7fd)
-    (property "Reference" "#PWR055" (at 220.98 27.94 0)
+    (property "Reference" "#PWR056" (at 220.98 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 220.98 25.4 0)
@@ -6478,7 +6574,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR056") (unit 1)
         )
       )
     )
@@ -6487,7 +6583,7 @@
   (symbol (lib_id "power:+3V3") (at 168.91 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 88a96ed3-3c08-4cc9-bf50-8ff9a6ec1df9)
-    (property "Reference" "#PWR043" (at 168.91 139.7 0)
+    (property "Reference" "#PWR044" (at 168.91 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 168.91 132.08 0)
@@ -6503,7 +6599,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
     )
@@ -6538,7 +6634,7 @@
   (symbol (lib_id "power:+3V3") (at 262.89 19.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8c33a0ce-6a43-44c5-81d8-e7aefc995b98)
-    (property "Reference" "#PWR057" (at 262.89 22.86 0)
+    (property "Reference" "#PWR058" (at 262.89 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 262.89 15.24 0)
@@ -6554,7 +6650,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR058") (unit 1)
         )
       )
     )
@@ -6563,7 +6659,7 @@
   (symbol (lib_id "power:GND") (at 113.665 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8cff0ce5-d82a-4e9a-b844-2746890a9f1f)
-    (property "Reference" "#PWR028" (at 113.665 91.44 0)
+    (property "Reference" "#PWR029" (at 113.665 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 113.665 88.9 0)
@@ -6579,7 +6675,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -6613,7 +6709,7 @@
   (symbol (lib_id "Device:C_Small") (at 59.69 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8d483ab1-c7e2-4e01-82e9-b43ee647e903)
-    (property "Reference" "C3" (at 61.595 30.48 0)
+    (property "Reference" "C4" (at 61.595 30.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100u" (at 61.595 32.385 0)
@@ -6630,7 +6726,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "C3") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -6639,7 +6735,7 @@
   (symbol (lib_id "Device:R_Small") (at 39.37 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8de477ff-9dcd-430e-8fd8-ac8b3da64fab)
-    (property "Reference" "R2" (at 40.64 126.365 0)
+    (property "Reference" "R3" (at 40.64 126.365 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 40.64 128.27 0)
@@ -6656,7 +6752,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "R2") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -6690,7 +6786,7 @@
   (symbol (lib_id "power:GND") (at 275.59 22.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8e4ea18b-1e0a-4b7c-afb7-f31eba378deb)
-    (property "Reference" "#PWR058" (at 275.59 29.21 0)
+    (property "Reference" "#PWR060" (at 275.59 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 275.59 26.67 0)
@@ -6706,7 +6802,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR060") (unit 1)
         )
       )
     )
@@ -6715,7 +6811,7 @@
   (symbol (lib_id "power:+3V3") (at 194.31 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9468eff1-9946-48b8-bdc2-ff4f0ec3a28f)
-    (property "Reference" "#PWR050" (at 194.31 93.98 0)
+    (property "Reference" "#PWR051" (at 194.31 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 194.31 86.36 0)
@@ -6731,7 +6827,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR051") (unit 1)
         )
       )
     )
@@ -6740,7 +6836,7 @@
   (symbol (lib_id "power:+3V3") (at 55.88 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 96983cbd-d764-465d-b843-40f5d48e2c12)
-    (property "Reference" "#PWR07" (at 55.88 127 0)
+    (property "Reference" "#PWR08" (at 55.88 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 55.88 119.38 0)
@@ -6756,7 +6852,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -6819,7 +6915,7 @@
   (symbol (lib_id "Device:R_Small") (at 143.51 132.08 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a12fe6f9-214f-4994-a04f-fe58a8e91160)
-    (property "Reference" "R13" (at 140.335 133.985 90)
+    (property "Reference" "R15" (at 140.335 133.985 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "470R" (at 145.415 133.985 90)
@@ -6836,7 +6932,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "R13") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -6871,7 +6967,7 @@
   (symbol (lib_id "power:GND") (at 172.72 187.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a2fca78d-8021-42f6-b50f-7c1c396111c8)
-    (property "Reference" "#PWR045" (at 172.72 194.31 0)
+    (property "Reference" "#PWR046" (at 172.72 194.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 172.72 191.77 0)
@@ -6887,7 +6983,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
       )
     )
@@ -6922,7 +7018,7 @@
   (symbol (lib_id "power:GND") (at 81.915 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a4bbcbd7-c4f6-4642-ba35-cd656040a79d)
-    (property "Reference" "#PWR017" (at 81.915 106.68 0)
+    (property "Reference" "#PWR018" (at 81.915 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 81.915 104.14 0)
@@ -6938,7 +7034,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -7034,7 +7130,7 @@
   (symbol (lib_id "power:+1V2") (at 135.89 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ad11e70f-adb8-4c73-affe-80d2054c5370)
-    (property "Reference" "#PWR032" (at 135.89 64.77 0)
+    (property "Reference" "#PWR033" (at 135.89 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V2" (at 135.89 57.15 0)
@@ -7050,7 +7146,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -7059,7 +7155,7 @@
   (symbol (lib_id "power:GND") (at 147.32 187.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b20e512c-42da-4cf9-9129-a962d63d96a6)
-    (property "Reference" "#PWR037" (at 147.32 194.31 0)
+    (property "Reference" "#PWR041" (at 147.32 194.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 147.32 191.77 0)
@@ -7075,7 +7171,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
     )
@@ -7117,7 +7213,7 @@
   (symbol (lib_id "power:GND") (at 138.43 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b2fa25da-c77f-4ba6-ac61-4d7320866af3)
-    (property "Reference" "#PWR033" (at 138.43 124.46 0)
+    (property "Reference" "#PWR034" (at 138.43 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 138.43 121.92 0)
@@ -7133,7 +7229,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -7142,7 +7238,7 @@
   (symbol (lib_id "FPGA_Lattice:ICE40UP5K-SG48ITR") (at 262.89 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b3112b21-82d3-486e-b51b-7efaba88f5e8)
-    (property "Reference" "V6" (at 266.7 79.375 0)
+    (property "Reference" "V5" (at 266.7 79.375 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ICE40UP5K-SG48ITR" (at 250.825 81.915 0)
@@ -7206,7 +7302,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "V6") (unit 1)
+          (reference "V5") (unit 1)
         )
       )
     )
@@ -7322,7 +7418,7 @@
   (symbol (lib_id "power:GND") (at 139.7 99.06 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bd2a9da6-c9c8-460b-b4e7-b33140f9c360)
-    (property "Reference" "#PWR040" (at 139.7 105.41 0)
+    (property "Reference" "#PWR036" (at 139.7 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 139.7 102.87 0)
@@ -7338,7 +7434,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -7347,7 +7443,7 @@
   (symbol (lib_id "Device:LED_Small") (at 147.32 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bf26d574-c426-4442-9bc6-a5368c4c56f4)
-    (property "Reference" "V5" (at 147.32 119.38 0)
+    (property "Reference" "V6" (at 147.32 119.38 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "PWR" (at 147.32 121.285 0)
@@ -7364,7 +7460,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "V5") (unit 1)
+          (reference "V6") (unit 1)
         )
       )
     )
@@ -7373,7 +7469,7 @@
   (symbol (lib_id "power:GND") (at 146.05 165.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c0958d14-b77c-4462-a826-f4c9ce470e02)
-    (property "Reference" "#PWR036" (at 146.05 171.45 0)
+    (property "Reference" "#PWR040" (at 146.05 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 146.05 168.91 0)
@@ -7389,7 +7485,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -7449,7 +7545,7 @@
   (symbol (lib_id "Device:R_Small") (at 143.51 142.24 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ccacecb0-4a82-414c-8416-73d4e2e3dddf)
-    (property "Reference" "R15" (at 140.335 144.145 90)
+    (property "Reference" "R17" (at 140.335 144.145 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "470R" (at 145.415 144.145 90)
@@ -7466,7 +7562,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "R15") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -7475,7 +7571,7 @@
   (symbol (lib_id "Device:C_Small") (at 265.43 97.79 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cd54b48b-6dd6-435e-b23a-a90debd7f3dd)
-    (property "Reference" "C22" (at 262.89 99.06 90)
+    (property "Reference" "C21" (at 262.89 99.06 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 269.24 99.06 90)
@@ -7492,7 +7588,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "C22") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
     )
@@ -7501,7 +7597,7 @@
   (symbol (lib_id "power:+1V2") (at 106.045 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d109a8a7-e434-41c8-bb53-5c101d53de34)
-    (property "Reference" "#PWR025" (at 106.045 71.12 0)
+    (property "Reference" "#PWR026" (at 106.045 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V2" (at 106.045 63.5 0)
@@ -7517,7 +7613,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -7526,7 +7622,7 @@
   (symbol (lib_id "Device:R_Small") (at 132.08 158.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d294bd55-811a-400b-8229-81166949f9a7)
-    (property "Reference" "R11" (at 133.35 158.115 0)
+    (property "Reference" "R13" (at 133.35 158.115 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 133.35 160.02 0)
@@ -7543,7 +7639,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "R11") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -7552,7 +7648,7 @@
   (symbol (lib_id "Device:R_Small") (at 38.1 82.55 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d3f79c98-e88d-4e72-a41e-895777a2cad8)
-    (property "Reference" "R4" (at 40.005 82.55 90)
+    (property "Reference" "R2" (at 40.005 82.55 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100R" (at 41.91 82.55 90)
@@ -7569,7 +7665,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "R4") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -7578,7 +7674,7 @@
   (symbol (lib_id "power:+3V3") (at 39.37 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d595d432-3deb-4847-a523-b16c815ba198)
-    (property "Reference" "#PWR04" (at 39.37 127 0)
+    (property "Reference" "#PWR05" (at 39.37 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 39.37 119.38 0)
@@ -7594,7 +7690,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -7603,7 +7699,7 @@
   (symbol (lib_id "power:+3V3") (at 208.28 19.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d5e33647-aa09-431c-b5b0-922bd51f894a)
-    (property "Reference" "#PWR052" (at 208.28 22.86 0)
+    (property "Reference" "#PWR053" (at 208.28 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 208.28 15.24 0)
@@ -7619,7 +7715,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR053") (unit 1)
         )
       )
     )
@@ -7628,7 +7724,7 @@
   (symbol (lib_id "power:+1V2") (at 38.1 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d6374675-62d8-4446-89c3-a1293bbc5548)
-    (property "Reference" "#PWR06" (at 38.1 82.55 0)
+    (property "Reference" "#PWR04" (at 38.1 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V2" (at 38.1 74.93 0)
@@ -7644,7 +7740,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -7678,7 +7774,7 @@
   (symbol (lib_id "Device:C_Small") (at 267.97 20.32 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dd4259d4-1ac0-4890-855c-8a28ea1634f3)
-    (property "Reference" "C21" (at 265.43 21.59 90)
+    (property "Reference" "C22" (at 265.43 21.59 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 271.78 21.59 90)
@@ -7695,7 +7791,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "C21") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
     )
@@ -7704,7 +7800,7 @@
   (symbol (lib_id "power:GND") (at 63.5 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ded20177-98f8-44f8-9c67-64a2f173a49f)
-    (property "Reference" "#PWR012" (at 63.5 41.91 0)
+    (property "Reference" "#PWR013" (at 63.5 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 63.5 39.37 0)
@@ -7720,7 +7816,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -7729,7 +7825,7 @@
   (symbol (lib_id "power:+3V3") (at 142.24 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e0d8909e-c3bb-42d6-ad16-d7e0f5ff4c2c)
-    (property "Reference" "#PWR034" (at 142.24 64.77 0)
+    (property "Reference" "#PWR037" (at 142.24 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 142.24 57.15 0)
@@ -7745,7 +7841,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -7754,7 +7850,7 @@
   (symbol (lib_id "power:GND") (at 209.55 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e39ae673-c1fc-4096-8250-58ac213dc242)
-    (property "Reference" "#PWR054" (at 209.55 85.09 0)
+    (property "Reference" "#PWR055" (at 209.55 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 209.55 82.55 0)
@@ -7770,7 +7866,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR055") (unit 1)
         )
       )
     )
@@ -7779,7 +7875,7 @@
   (symbol (lib_id "power:GND") (at 55.88 186.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e42945a8-9e9a-4e18-8f1a-d36f95d69c69)
-    (property "Reference" "#PWR010" (at 55.88 193.04 0)
+    (property "Reference" "#PWR011" (at 55.88 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 55.88 190.5 0)
@@ -7795,7 +7891,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -7858,7 +7954,7 @@
   (symbol (lib_id "power:GND") (at 191.77 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f01c74e8-3e6a-4545-b1cf-b5a04d78c4d9)
-    (property "Reference" "#PWR048" (at 191.77 162.56 0)
+    (property "Reference" "#PWR050" (at 191.77 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 191.135 160.655 0)
@@ -7874,7 +7970,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR050") (unit 1)
         )
       )
     )
@@ -7883,7 +7979,7 @@
   (symbol (lib_id "power:GND") (at 106.045 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f1523feb-65ef-40d7-8976-09b05471c793)
-    (property "Reference" "#PWR026" (at 106.045 91.44 0)
+    (property "Reference" "#PWR027" (at 106.045 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 106.045 88.9 0)
@@ -7899,7 +7995,33 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR027") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 71.755 165.1 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid f684c894-698c-422f-9b15-34bef5fccecb)
+    (property "Reference" "R7" (at 73.025 164.465 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10k" (at 73.025 166.37 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 71.755 165.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 71.755 165.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0d2554e7-26b0-4354-9a6d-330c92d47821))
+    (pin "2" (uuid 400fb329-8aa8-4754-921d-8fe1d65c76ce))
+    (instances
+      (project "ICE40UP-Development-Board"
+        (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -7908,7 +8030,7 @@
   (symbol (lib_id "power:GND") (at 114.935 36.195 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f7e0860f-082b-4ab3-80ad-3d8a63bb1c38)
-    (property "Reference" "#PWR029" (at 114.935 42.545 0)
+    (property "Reference" "#PWR030" (at 114.935 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 114.935 40.005 0)
@@ -7924,7 +8046,7 @@
     (instances
       (project "ICE40UP-Development-Board"
         (path "/91216a91-23bc-4cec-83ce-b30defa150b0"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
